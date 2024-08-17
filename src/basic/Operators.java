@@ -98,7 +98,45 @@ public class Operators {
 		System.out.println(res7); //9
 		System.out.println(o); //9
 		
+		//5) Assignment Operators = , += , -= , /= , %=
 		
+		//case1
+		int p = 10;
+		p+=5; // p=p+5;
+		System.out.println("P Value : "+p);
+		
+		//Case2
+		int q = 10;
+		q-=5; // q=q-5;
+		System.out.println("Q Value : "+q);
+		
+		//Case3
+		int r = 10;
+		r/=5; // r=r/5;
+		System.out.println("R Value : "+r);
+		
+		//Case4
+		int s = 10;
+		s%=5; // s=s%5;
+		System.out.println("S Value : "+s);
+		
+		//6) Ternary Opertor
+		
+		//var=exp ? result1 : result2;
+
+		//Example1
+		int t = 200, u = 100;
+		int v = (t<u) ? t : u;
+		System.out.println(v);
+
+		//Example2
+		int w = (1 == 1) ? 200 : 100;
+		System.out.println(w);
+		
+		//Example3
+		int person_age=30;
+		String result1=(person_age>18)?"Eligible":"Not Eligible";
+		System.out.println(result1);
 
 	}
 
