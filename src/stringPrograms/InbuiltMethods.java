@@ -1,11 +1,9 @@
-/** @author Gunashekar R
- *  gunashekarr11@gmail.com
- */
+
 package stringPrograms;
 
 import java.util.Arrays;
 
-public class Methods {
+public class InbuiltMethods {
 
 
 	public static void main(String[] args) {
@@ -52,7 +50,7 @@ public class Methods {
 	    String str8 ="welcome";
 	    System.out.println(str7==str8); // true
 	    System.out.println(str7.equals(str8)); //true - recommended
-	    System.out.println(str7.equals("Welcome")); //  false
+	    System.out.println(str7.equals("Welcome")); //  false - Case sensitive
 	    System.out.println(str7.equalsIgnoreCase(str8)); // true
 	    System.out.println(str7.equalsIgnoreCase("Welcome")); // true
 	    
@@ -107,8 +105,11 @@ public class Methods {
        
        System.out.println(a[0]+a1[0]+a1[1]); // abc 123 xyz
        
+		
+	}
+       
+       
        
        
 	}
 
-}
