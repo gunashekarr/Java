@@ -26,8 +26,8 @@ public class ZeroPositionSwapping {
 	}
 	
 	//print 
-	for (int i1 = 0; i1 < arr.length; i1++) {
-		System.out.println(arr[i1]+" ");
+	for (int i2 = 0; i2 < arr.length; i2++) {
+		System.out.println(arr[i2]+" ");
 		
 	}
 		
