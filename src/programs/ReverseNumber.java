@@ -16,7 +16,7 @@ public class ReverseNumber {
 		System.out.println("Enter the Number:");
 		Scanner sc=new Scanner(System.in);
 		int num = sc.nextInt();
-		reverseUsingStringBuilder(num);
+		reverseUsingLoop(num);
 		
 	}
 	public static void reverseUsingLoop(int num)
@@ -32,9 +32,9 @@ public class ReverseNumber {
 	}
 	public static void reverseUsingStringBuilder(int num)
 	{
-		StringBuilder sb=new StringBuilder();
+		StringBuilder sb=new StringBuilder(num);
 		StringBuilder result = sb.reverse();
-		System.out.println("The Reversed Number using String builder concept-->"+result);
+		System.out.println("The Reversed Number using String builder concept-->"+result.toString());
 		
 	}
 

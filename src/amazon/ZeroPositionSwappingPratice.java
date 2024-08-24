@@ -9,7 +9,7 @@ package amazon;
  * Input = 9,0,1,0,13,0,0,9
  * Output = 9,1,13,9,0,0,0,0
  */
-public class ZeroPositionSwapping {
+public class ZeroPositionSwappingPratice {
   public static void main(String[] args) {
 	int arr[] = {9,0,1,0,13,0,0,9};
 	int start = 0;
@@ -17,22 +17,18 @@ public class ZeroPositionSwapping {
 	for (int i = 0; i < arr.length; i++) {
 		if(arr[i]!=0)
 		{
-			arr[start]=arr[i];
+			arr[start] = arr[i];
 			start++;
 		}
 	}
-	for (int i1 = start; i1 < arr.length; i1++) {
-		arr[i1]=0;
+	
+	for (int i = start; i < arr.length; i++) {
+		arr[i]=0;
 	}
 	
-	//print 
-	for (int i2 = 0; i2 < arr.length; i2++) {
-		System.out.print(arr[i2]+" ");
-		
+	for (int i = 0; i < arr.length; i++) {
+		System.out.print(arr[i]+" ");
 	}
-	System.out.println("Size of the array : "+ arr.length);
-	
-	
 }
 
 }
