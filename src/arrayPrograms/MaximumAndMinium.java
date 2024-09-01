@@ -5,7 +5,7 @@ package arrayPrograms;
 
 public class MaximumAndMinium {
 	public static void main(String[] args) {
-		int a[]= {1,4,3,4,6,1};
+		int a[]= {0,4,3,4,6,1};
 		int max=a[0];
 		int min=a[0];
 		for (int i = 0; i < a.length; i++) {
