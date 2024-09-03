@@ -13,10 +13,12 @@ public class ReverseNumber {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Enter the Number:");
-		Scanner sc=new Scanner(System.in);
-		int num = sc.nextInt();
+//		System.out.println("Enter the Number:");
+//		Scanner sc=new Scanner(System.in);
+//		int num = sc.nextInt();
+		int num=12345;
 		reverseUsingLoop(num);
+//		reverseUsingStringBuilder(num);
 		
 	}
 	public static void reverseUsingLoop(int num)

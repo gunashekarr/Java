@@ -17,7 +17,7 @@ public class RemoveDuplicatesSet {
 
 
 	    public static String removeDuplicatesUsingSet(String input) {
-	        Set<Character> charSet = new LinkedHashSet<>();
+	        Set<Character> charSet = new LinkedHashSet<Character>();
 	        
 	        for (char c : input.toCharArray()) {
 	            charSet.add(c);
