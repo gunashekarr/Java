@@ -97,6 +97,13 @@ public class LoopingIterativeStatements {
 				System.out.println(l1+" is a odd number");
 			}
 		}
+		//-------------------------------------For Each loop------------------------------------------
+				System.out.println("For Each loop");
+				int[] values= {1,2,3,4,5};
+				for(int value:values)
+				{
+					System.out.println(value);
+				}
 		
 		
 		

@@ -5,7 +5,7 @@ package basic;
 
 /**
  * @author 91895
- *
+ * Break used in switch & conditional statements
  */
 public class JumpingStatements {
 	public static void main(String[] args) {

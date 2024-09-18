@@ -83,9 +83,9 @@ public class HashSetDemo {
        
        //Remove all elements from the list1 to list2
        ArrayList myList1 = new ArrayList();
-       myList.add(11);
-	   myList.add(null);
-	   myList.add("Guna");	
+       myList1.add(11);
+	   myList1.add(null);
+	   myList1.add("Guna");	
 	   
 	   myList.removeAll(myList1);
 	   System.out.println("The arraylist after removing the other arraylist elements: "+myList);
