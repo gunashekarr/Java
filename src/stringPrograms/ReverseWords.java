@@ -11,6 +11,10 @@ public class ReverseWords {
     public static void main(String[] args) {
         String input = "Welcome to Amazon";
         System.out.println(reverseWords(input)); // Output: "olleH dlroW"
+        
+        String name ="Guna";
+        String result = new StringBuilder(name).reverse().toString();
+        System.out.println(result);
     }
     // Method to reverse each word in a string
     public static String reverseWords(String input) {

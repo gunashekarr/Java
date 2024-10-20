@@ -32,7 +32,7 @@ public void add(int k,double j)
 	System.out.println(k+j);
 }
 
-public static void main(String[] args) {
+public static void main(StringDemo[] args) {
 	Infosys nw = new Infosys(10,10);
 	nw.add();
 

@@ -17,7 +17,7 @@ class b extends a
 }
 public class NAB extends a{
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Encapsulation es=new Encapsulation();
 		es.setA(100);
 		System.out.println(es.getA());

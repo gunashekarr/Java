@@ -9,7 +9,7 @@ package pratice;
  */
 public class ExceptionHandling {
 	
-	public static void main(String[] args) throws Exception 
+	public static void main(StringDemo[] args) throws Exception 
 	{
 		
 		// unchecked exception : java.lang.NullPointerException

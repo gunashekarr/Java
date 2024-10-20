@@ -9,7 +9,7 @@ package stringPrograms;
  */
 public class RemoveDuplicates {
 	public static void main(String[] args) {
-		String input="Gunashekar";
+		String input="GunashekargG";
 		char ch[]=input.toCharArray();
 		
 		for (int i = 0; i < ch.length; i++) {

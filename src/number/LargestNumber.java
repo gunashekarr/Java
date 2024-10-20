@@ -23,7 +23,7 @@ public class LargestNumber {
 		{
 			System.out.println(x+" is the largest number!!");
 		}
-		else if(y>z && z>x)
+		else if(y>z && y>x)
 		{
 			System.out.println(y+" is the largest number!!");
 		}

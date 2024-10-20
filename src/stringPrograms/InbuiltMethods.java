@@ -59,7 +59,7 @@ public class InbuiltMethods {
 	    System.out.println("String-->"+str9);
 	    System.out.println("Replacing a S with G-->"+str9.replace('S','G'));
 	    System.out.println("Replacing a Selenium with Guna-->"+str9.replace("Selenium","Guna"));
-	    System.out.println("Replacing a Selenium with Guna and Guna with Test-->"+str9.replace("Selenium","Guna").replace("Guna","Test"));
+	    System.out.println("Replacing a Selenium with Guna and Guna with Test-->"+str9.replace("Selenium","Guna").replace("Guna","Test").replace("Guna","Test"));
 	    String name = "Guna Shekar";
 	    System.out.println(name.toLowerCase().contains("guna"));
 	    System.out.println(name.replace('G','g').contains("guna"));

@@ -9,10 +9,11 @@ package stringPrograms;
  */
 public class Palindrome {
 	public static void main(String[] args) {
-		String input = "level";
+		String input = "level1";
 		String sentance = "No lemon, no melon";
 		isPalindromeWord(input);
-		isPalindromeWords(sentance);
+//		isPalindromeWords(sentance);
+		reverseString(input);
 	}
 	public static void isPalindromeWord(String input)
 	{
@@ -39,5 +40,10 @@ public class Palindrome {
 //			System.out.println("After StringBuilder : "+sc.reverse());
 				
 	}
+		public static void reverseString(String input)
+		{
+			StringBuilder sc = new StringBuilder(input).reverse();
+			System.out.println("Reversed String : "+sc.toString());
+		}
 
 }

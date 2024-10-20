@@ -45,6 +45,7 @@ public class HashMapDemo {
 			System.out.println(x);
 		}
 		for(int x:hm.keySet()) {
+			System.out.println("For Each Loop");
 			System.out.println(x+"  "+hm.get(x));
 		}
 		//Using iterator

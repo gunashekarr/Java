@@ -14,6 +14,7 @@ public class SortingAscending {
 		
 //	  Approach 1 : Using Inbuilt function	
       int numbers[] = {100,22,65,111,77};
+      System.out.println("UnSorted Array: " + Arrays.toString(numbers));
       Arrays.sort(numbers);
       System.out.println("Length of the array : "+numbers.length);
       System.out.println("Sorted Array: " + Arrays.toString(numbers));

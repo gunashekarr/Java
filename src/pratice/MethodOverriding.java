@@ -26,7 +26,7 @@ class child extends parent
 
 public class MethodOverriding {
 	
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		child cc = new child();
 		cc.home();
 //		parent pp = new parent();

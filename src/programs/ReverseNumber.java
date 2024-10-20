@@ -17,8 +17,8 @@ public class ReverseNumber {
 //		Scanner sc=new Scanner(System.in);
 //		int num = sc.nextInt();
 		int num=12345;
-		reverseUsingLoop(num);
-//		reverseUsingStringBuilder(num);
+//		reverseUsingLoop(num);
+		reverseUsingStringBuilder(num);
 		
 	}
 	public static void reverseUsingLoop(int num)

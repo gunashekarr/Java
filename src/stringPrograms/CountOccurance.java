@@ -10,7 +10,7 @@ package stringPrograms;
 public class CountOccurance {
 	public static void main(String[] args) {
 		String input = "test java";
-		char ch = ' ';
+		char ch = 'a';
 		int count=0;
 		for(char chr:input.toCharArray())
 		{

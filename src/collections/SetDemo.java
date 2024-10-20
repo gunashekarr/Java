@@ -15,7 +15,7 @@ import edifecs.Employee;
  * @author 91895
  *
  */
-public class ArrayListDemo {
+public class SetDemo {
 	public static void main(String[] args) {
 		
 		//Declaration - Hetrogenous data/item/object

@@ -14,8 +14,8 @@ public static void main(String[] args) {
 		
 		while(num>0)
 		{
-//			int digit = num%10;
-//			sum=sum+digit;
+			int digit = num%10;
+			sum=sum+digit;
 			num=num/10;
 			count++;
 		}
