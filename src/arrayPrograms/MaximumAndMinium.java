@@ -13,7 +13,7 @@ public class MaximumAndMinium {
 			{
 				max = a[i];
 			}
-			if(a[i]<max)
+			if(a[i]<min)
 			{
 				min = a[i];
 			}

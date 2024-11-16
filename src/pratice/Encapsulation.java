@@ -24,6 +24,7 @@ public class Encapsulation {
 	public static void main(StringDemo[] args) {
 		Encapsulation es=new Encapsulation();
 //		System.out.println("Before Setting an Value"+es.getA());
+		System.out.println(es.getA());
 		es.setA(100);
 		System.out.println(es.getA());
 

@@ -3,6 +3,7 @@
  */
 package programs;
 
+import java.util.HashSet;
 /**
  * @author 91895
  *
@@ -17,7 +18,7 @@ public class RemoveDuplicatesSet {
 
 
 	    public static String removeDuplicatesUsingSet(String input) {
-	        Set<Character> charSet = new LinkedHashSet<Character>();
+	        Set<Character> charSet = new HashSet<Character>();
 	        
 	        for (char c : input.toCharArray()) {
 	            charSet.add(c);

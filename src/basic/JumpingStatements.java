@@ -20,8 +20,8 @@ public class JumpingStatements {
 				break;
 			}
 		}
-		//-------------------------------------Break Statement------------------------------------------
-		System.out.println("Break Statement");
+		//-------------------------------------Continue Statement------------------------------------------
+		System.out.println("Continue Statement");
 		for (int i = 0; i <= 10; i++) 
 		{
 			if(i%2==0)

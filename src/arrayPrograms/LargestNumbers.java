@@ -12,6 +12,7 @@ public class LargestNumbers {
 		int arr[] = {11,8,22,9,99};
 		int firstLargest = 0;
 		int secondLargest = 0;
+		int thirdLargest = 0;
 		
 		for (int i = 0; i < arr.length; i++) {
 			if(firstLargest<arr[i])
