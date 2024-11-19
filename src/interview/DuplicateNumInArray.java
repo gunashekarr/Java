@@ -18,7 +18,7 @@ public class DuplicateNumInArray {
 		Set<Integer> originalSet = new HashSet<Integer>();
 		
 		for (int i = 0; i < a.length; i++) {
-			if(duplicateSet.contains(a[i]))
+			if()
 			{
 				duplicateSet.add(a[i]);
 			}
